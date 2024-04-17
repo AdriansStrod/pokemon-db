@@ -18,3 +18,17 @@
 -- Sakārtot pokemonus pēc augstāka HP (ORDER BY)
 
 -- Izdzēst tos, kam attack mazāks par 50 (DELETE, WHERE)
+
+CREATE TABLE Pokemon (
+	PokemonID int,
+   nosaukums TEXT,
+   type_1 TEXT,
+   type_2 TEXT,
+   total int,
+   hp	int,
+   attack int,
+   defense int
+  );
+  
+  Insert pokemons(PokemonID, nosaukums, type_1, type_2, total, hp, attack, defense)
+  VALUES(1, 'Bulbasaur', 'Grass', 'Poison', 318, 45, 49, 49);
